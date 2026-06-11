@@ -1,0 +1,55 @@
+# ============================================================
+# Downloaded Imagery & Intermediate Files
+# ============================================================
+
+# Final outputs
+*_clipped.tif
+
+# Intermediate tile files
+tile_*.tif
+tile_*.vrt
+
+# Mosaic files
+*.vrt
+*.tif
+
+# Temporary files created during clipping
+temp_boundary.geojson
+
+# ============================================================
+# Python
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv
+env/
+venv/
+
+# ============================================================
+# Jupyter Notebook
+# ============================================================
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# ============================================================
+# OS Files
+# ============================================================
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Mac
+.DS_Store
+
+# ============================================================
+# Google Earth Engine Auth
+# ============================================================
+
+# Credentials file created by earthengine authenticate
+credentials
+.config/earthengine/
